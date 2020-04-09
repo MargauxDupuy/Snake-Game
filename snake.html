@@ -1,0 +1,39 @@
+<h1 class="">Snake Game</h1>
+<span class="mrgb">Non disponible sur smartphone</span>
+
+<div class="mrgb">
+  <div>Score : <span id="score">0</span></div>
+  <div>Best score : <span id="bestScore"></span></div>
+</div>
+<canvas id="snake_canvas" class="mrgb"></canvas>
+
+<div id="snake_gameover"></div>
+
+<div>
+  <button id="snake_play" class="btn">Play</button>
+  <button id="snake_pause" class="btn">Pause</button>
+</div>
+
+
+<style>
+  #snake_canvas{
+    background-color : #12181E;
+    border : 2px solid #65D1FF;
+    box-shadow: 3px 3px 10px #46515e;
+    display:block;
+  }
+
+  .mrgb {
+    margin-bottom: 24px;
+  }
+
+  .btn {
+    color: #65D1FF;
+    background-color : #12181E;
+    font-weight: bold;
+    padding: 4px 24px;
+  }
+</style>
+<script src="snake.js"></script>
+
+
